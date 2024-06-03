@@ -12,6 +12,7 @@ The codebook and official documents are in the `04_files` folder.
 
 We welcome any comments, questions, and bug reports on this study. This current study is accepted as a short (less mature) paper rather than a full paper. We are currently working on the extension of it, and we hope to conduct a more comprehensive examination of the algorithmic fairness in High school dropout prediction.  
 
+`Github Copilot`, an AI coding assistant, was used to develop these scripts.
 
 # 1. Running the code  
 
