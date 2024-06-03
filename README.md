@@ -10,7 +10,7 @@ The raw data can be accessed on NCES's [DataLab](https://nces.ed.gov/datalab/onl
 
 The codebook and official documents are in the `04_files` folder.  
 
-We welcome any comments, questions, and bug reports on this study since it is a short paper ()
+We welcome any comments, questions, and bug reports on this study. 
 
 # 1. Running the code  
 
