@@ -8,7 +8,11 @@ We open-source the data and code of our paper *Examining the Algorithmic Fairnes
   
 The raw data can be accessed on NCES's [DataLab](https://nces.ed.gov/datalab/onlinecodebook/session/codebook/c48ab202-0e20-4537-9fbf-96d7d37afd55). Please click the download button on the right side of this webpage and choose the R version (i.e., in the `.rdata` format).  
 
-The codebook and official documents are in the `04_files` folder.
+The codebook and official documents are in the `04_files` folder.  
 
+We welcome any comments, questions, and bug reports on this study since it is a short paper ()
 
+# 1. Running the code  
 
+## 1.1 Our coding environment  
+To help better debug
