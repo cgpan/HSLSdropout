@@ -25,4 +25,4 @@ We welcome any comments, questions, and bug reports on this study. This current 
 - Pytorch version: 2.0.1
 - Sklearn version: 1.2.2
 
-We found that the higher version of Python may cause a conflict between the `sklearn` and `PyTorch,` which sometimes leads to crashes. Therefore, we switched to Python 3.8.17, and the code ran well. Another tricky thing is running this project on an Apple CPU is faster than running on the `mps` (Metal Performance Shaders) when using the Pytorch 2.0.1. 
+We noticed that the higher version of Python may cause a conflict between the `sklearn` and `PyTorch,` which sometimes leads to crashes in Jupyter Notebook. Therefore, we switched to Python 3.8.17, and the code ran well. Another tricky thing is running this project on an Apple CPU is faster than running on the `mps` (Metal Performance Shaders) when using the Pytorch 2.0.1. 
