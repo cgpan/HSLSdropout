@@ -21,5 +21,5 @@ We welcome any comments, questions, and bug reports on this study. This current 
 - Unified RAM: 32GB
 - R version: 4.3.0 (2023-04-21) -- "Already Tomorrow"
 - Python version: 3.8.17
-- Pytroch version: 2.0.1
+- Pytorch version: 2.0.1
 - Sklearn version: 1.2.2
