@@ -14,7 +14,7 @@
 ##############################################################
 cat("Running the data cleaning file...")
 cat("Load the dataset...")
-load("/Users/panpeter/Desktop/PhD_Learning/HSLS-09_Project/public_dataset/hsls_17_student_pets_sr_v1_0.rdata")
+load("Your_local_path_towards_public_dataset/hsls_17_student_pets_sr_v1_0.rdata")
 
 df <- hsls_17_student_pets_sr_v1_0
 rm(hsls_17_student_pets_sr_v1_0)
@@ -501,20 +501,20 @@ cor(train_data$X1PROBLEM, train_data$X1SCHOOLCLI, use = "complete.obs")
 if (keep_nr == T){
   # save(df,file = "~/Desktop/PhD_Learning/Independent Studies/dropout/01_data/02_processed_data/15_df_1022_unimputed_pmm_nr_kept.rdata")
   # save(df_imp, file = "~/Desktop/PhD_Learning/Independent Studies/dropout/01_data/02_processed_data/14_df_1022_imputed_pmm_nr_kept.rdata")
-  write.csv(df, file = "~/Desktop/PhD_Learning/Independent Studies/dropout/01_data/02_processed_data/19_df_1022_unimputed_pmm_nr_kept.csv",
+  write.csv(df, file = "../01_data/02_processed_data/19_df_1022_unimputed_pmm_nr_kept.csv",
             row.names = F)
-  write.csv(df_imp, file = "~/Desktop/PhD_Learning/Independent Studies/dropout/01_data/02_processed_data/18_df_1022_imputed_pmm_nr_kept.csv",
+  write.csv(df_imp, file = "../01_data/02_processed_data/18_df_1022_imputed_pmm_nr_kept.csv",
             row.names = F)
 }else{
   # save(df,file = "~/Desktop/PhD_Learning/Independent Studies/dropout/01_data/02_processed_data/17_df_1023_unimputed_pmm_nr_dropped.rdata")
   # save(df_imp, file = "~/Desktop/PhD_Learning/Independent Studies/dropout/01_data/02_processed_data/16_df_1023_imputed_pmm_nr_dropped.rdata")
-  write.csv(train_data, file = "~/Desktop/PhD_Learning/Independent Studies/dropout/01_data/02_processed_data/24_train_0101_unimputed_pmm_nr_dropped.csv",
+  write.csv(train_data, file = "../01_data/02_processed_data/24_train_0101_unimputed_pmm_nr_dropped.csv",
             row.names = F)
-  write.csv(test_data, file = "~/Desktop/PhD_Learning/Independent Studies/dropout/01_data/02_processed_data/24_test_0101_unimputed_pmm_nr_dropped.csv",
+  write.csv(test_data, file = "../01_data/02_processed_data/24_test_0101_unimputed_pmm_nr_dropped.csv",
             row.names = F)
-  write.csv(train_data_imp, file = "~/Desktop/PhD_Learning/Independent Studies/dropout/01_data/02_processed_data/25_train_0101_imputed_pmm_nr_dropped.csv",
+  write.csv(train_data_imp, file = "../01_data/02_processed_data/25_train_0101_imputed_pmm_nr_dropped.csv",
             row.names = F)
-  write.csv(test_data_imp, file = "~/Desktop/PhD_Learning/Independent Studies/dropout/01_data/02_processed_data/25_test_0101_imputed_pmm_nr_dropped.csv",
+  write.csv(test_data_imp, file = "../01_data/02_processed_data/25_test_0101_imputed_pmm_nr_dropped.csv",
             row.names = F)
 }
 
