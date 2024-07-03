@@ -25,7 +25,7 @@ We welcome any comments, questions, and bug reports on this study. This current 
 - Pytorch version: 2.0.1
 - Sklearn version: 1.2.2
 
-For Mac users: We noticed that the higher version of Python might cause a conflict between the `sklearn` and `PyTorch,` which sometimes leads to crashes in Jupyter Notebook. Therefore, we switched to Python 3.8.17, and the code ran well. Another tricky thing is that running this project on an Apple CPU is faster than running on the `mps` (Metal Performance Shaders) when using the Pytorch 2.0.1. 
+For Mac users: We noticed that the higher version of Python might cause a conflict between the `sklearn` and `PyTorch,` which sometimes leads to crashes in Jupyter Notebook. Therefore, we switched to Python 3.8.17, and the code ran well. Another tricky thing is that running the neural network model (in `02_NN_models.ipynb`) on an Apple CPU is faster than running on the `mps` (Metal Performance Shaders) when using the Pytorch 2.0.1. 
 
 For Windows users: all those codes should run well on the latest version of R, and Python with the required packages.
 
