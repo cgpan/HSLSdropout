@@ -1,5 +1,6 @@
 # Codes and Data for *Examining the Algorithmic Fairness in Predicting High School Dropouts*(accepted by EDM2024)
- Chenguang Pan and Zhou Zhang
+ Chenguang Pan and Zhou Zhang  
+ Teachers College Columbia University
 
 # 1. Instruction  
 
