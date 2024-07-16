@@ -38,6 +38,5 @@ In the `02_codings` folder:
 - `functions.py` contains all the necessary functions used in the scripts above. You can check the details about running the `DAF` functions if you want to apply it to another project. 
 
  Please email us for feedback, questions, comments, and bug reports. Thank you very much!  
- 
- Chenguang Pan and Zhou Zhang
+ Chenguang Pan and Zhou Zhang  
  Email: cp3280@columbia.edu
