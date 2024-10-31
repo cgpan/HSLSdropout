@@ -35,7 +35,20 @@ In the `02_codings` folder:
 - `01_Data_cleaning.r` shows the details about how we clean the raw dataset. The cleaned data were already stored in the `01_data` folder. You directly skip this file if not interested.
 - `02_NN_models.ipynb` is to build the neural network models.
 - `03_ML_models.ipynb` is about building all the other machine learning models including the logistic regression, random forest, XGBoost, support vector machine.
-- `functions.py` contains all the necessary functions used in the scripts above. You can check the details about running the `DAF` functions if you want to apply it to another project. 
+- `functions.py` contains all the necessary functions used in the scripts above. You can check the details about running the `DAF` functions if you want to apply it to another project.
+
+## 3. Citation  
+```
+@inproceedings{pan2024examining,
+  title={Examining the Algorithmic Fairness in Predicting High School Dropouts},
+  author={Pan, Chenguang and Zhang, Zhou},
+  booktitle={Proceedings of the 17th International Conference on Educational Data Mining},
+  pages={262--269},
+  year={2024}
+}
+```
+
+ ## 4. Contact 
 
  Please email us for feedback, questions, comments, and bug reports. Thank you very much!  
  Chenguang Pan and Zhou Zhang  
